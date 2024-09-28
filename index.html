@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+        }
+        img {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>тегін ақша керек болса бас</h1>
+    <button onclick="showImage()">Бас</button>
+    <img id="myImage" src="ваш_сурет.jpg" alt="Сурет" />
+
+    <script>
+        function showImage() {
+            document.getElementById('myImage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
